@@ -668,7 +668,7 @@ static int cost;
         try {
             return reader.readLine();
         } catch (IOException e) {
-            e.printStackTrace();
+         
             return "";
         }
     }
